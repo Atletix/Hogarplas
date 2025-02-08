@@ -1,0 +1,26 @@
+title: HogarPlas
+description: Redesigned website for HogarPlas
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hogarplas.com.co" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sass-converter
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude these files from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
